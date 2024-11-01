@@ -16,7 +16,7 @@ This network was applied to a classification dataset determining whether or not 
 Ensure you have Python 3.x installed and the following Python libraries:
 ```bash
 pip install numpy pandas matplotlib jupyter
-
+```
 ## Running the Code
 ```bash
 git clone https://github.com/HusseinSaleh2/Feed-Forward-Network.git
