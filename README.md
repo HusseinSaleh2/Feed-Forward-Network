@@ -18,13 +18,13 @@ Ensure you have Python 3.x installed and the following Python libraries:
 pip install numpy pandas matplotlib jupyter
 ```
 ## Running the Code
-1. Clone the repository
+1. **Clone the repository**
 ```bash
 git clone https://github.com/HusseinSaleh2/Feed-Forward-Network.git
 cd Feed-Forward-Network
 ```
-2. Open the Jupyter Notebook
+2. **Open and Run the Jupyter Notebook**
 ```bash
 jupyter notebook NeuralNetwork.ipynb
 ```
-3. Run the notebook.
+
