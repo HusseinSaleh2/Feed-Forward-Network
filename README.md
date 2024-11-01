@@ -17,6 +17,7 @@ Ensure you have Python 3.x installed and the following Python libraries:
 ```bash
 pip install numpy pandas matplotlib jupyter
 ```
+
 ## Running the Code
 1. **Clone the repository**
 ```bash
@@ -27,4 +28,21 @@ cd Feed-Forward-Network
 ```bash
 jupyter notebook NeuralNetwork.ipynb
 ```
+
+## Dataset
+The dataset used in this project contains 768 samples, each representing a unique patient profile with 8 health-related features. These features include important medical metrics that help determine the likelihood of diabetes in patients. The classification target is binary: indicating whether the patient has diabetes (`1`) or does not (`0`).
+
+### Features
+The dataset comprises the following 8 factors:
+1. **Pregnancies**: Number of times the patient has been pregnant.
+2. **Glucose**: Plasma glucose concentration after a 2-hour oral glucose tolerance test.
+3. **Blood Pressure**: Diastolic blood pressure (mm Hg).
+4. **Skin Thickness**: Triceps skinfold thickness (mm).
+5. **Insulin**: 2-hour serum insulin (mu U/ml).
+6. **BMI (Body Mass Index)**: Weight in kg/(Height in m)^2.
+7. **Diabetes Pedigree Function**: A function that scores the likelihood of diabetes based on family history.
+8. **Age**: Age of the patient in years.
+
+### Target Variable
+- **Outcome**: The output is binary, where `0` represents a patient who does not have diabetes, and `1` represents a patient who does.
 
